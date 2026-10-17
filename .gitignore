@@ -8,6 +8,11 @@ logs/
 *~
 .DS_Store
 
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
 # Sensitive files — prevent accidental secret commits
 .env
 .env.*
